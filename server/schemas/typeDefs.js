@@ -5,7 +5,7 @@ const { User, Book } = require('../models');
 // create our typeDefs
 const typeDefs = gql`
     
-    imput BookInput {
+    input BookInput {
         authors: [String]
         description: String
         title: String
